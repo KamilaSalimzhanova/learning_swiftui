@@ -8,17 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		8EAF13532D82D5F40038C8AF /* learning_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF13522D82D5F40038C8AF /* learning_swiftuiApp.swift */; };
-		8EAF13552D82D5F40038C8AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF13542D82D5F40038C8AF /* ContentView.swift */; };
+		8EAF13552D82D5F40038C8AF /* AddImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF13542D82D5F40038C8AF /* AddImage.swift */; };
 		8EAF13572D82D5F50038C8AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EAF13562D82D5F50038C8AF /* Assets.xcassets */; };
 		8EAF135A2D82D5F50038C8AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EAF13592D82D5F50038C8AF /* Preview Assets.xcassets */; };
+		8EAF13612D82DE9E0038C8AF /* AddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF13602D82DE9E0038C8AF /* AddButton.swift */; };
+		8EAF13632D82DFF20038C8AF /* NavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF13622D82DFF20038C8AF /* NavigationStack.swift */; };
+		8EAF13652D82E1640038C8AF /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF13642D82E1640038C8AF /* ListView.swift */; };
+		8EAF13672D82EC4B0038C8AF /* CustomViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF13662D82EC4B0038C8AF /* CustomViewModifier.swift */; };
+		8EAF13692D82EE4C0038C8AF /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF13682D82EE4C0038C8AF /* SwiftUIView.swift */; };
+		8EAF136B2D82EFC30038C8AF /* observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF136A2D82EFC30038C8AF /* observable.swift */; };
+		8EAF136F2D82F3E90038C8AF /* takss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAF136E2D82F3E90038C8AF /* takss.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8EAF134F2D82D5F40038C8AF /* learning_swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learning_swiftui.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EAF13522D82D5F40038C8AF /* learning_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learning_swiftuiApp.swift; sourceTree = "<group>"; };
-		8EAF13542D82D5F40038C8AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8EAF13542D82D5F40038C8AF /* AddImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImage.swift; sourceTree = "<group>"; };
 		8EAF13562D82D5F50038C8AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EAF13592D82D5F50038C8AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8EAF13602D82DE9E0038C8AF /* AddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButton.swift; sourceTree = "<group>"; };
+		8EAF13622D82DFF20038C8AF /* NavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStack.swift; sourceTree = "<group>"; };
+		8EAF13642D82E1640038C8AF /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		8EAF13662D82EC4B0038C8AF /* CustomViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewModifier.swift; sourceTree = "<group>"; };
+		8EAF13682D82EE4C0038C8AF /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		8EAF136A2D82EFC30038C8AF /* observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = observable.swift; sourceTree = "<group>"; };
+		8EAF136E2D82F3E90038C8AF /* takss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = takss.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +66,14 @@
 			isa = PBXGroup;
 			children = (
 				8EAF13522D82D5F40038C8AF /* learning_swiftuiApp.swift */,
-				8EAF13542D82D5F40038C8AF /* ContentView.swift */,
+				8EAF13542D82D5F40038C8AF /* AddImage.swift */,
+				8EAF13602D82DE9E0038C8AF /* AddButton.swift */,
+				8EAF13622D82DFF20038C8AF /* NavigationStack.swift */,
+				8EAF13642D82E1640038C8AF /* ListView.swift */,
+				8EAF13662D82EC4B0038C8AF /* CustomViewModifier.swift */,
+				8EAF13682D82EE4C0038C8AF /* SwiftUIView.swift */,
+				8EAF136A2D82EFC30038C8AF /* observable.swift */,
+				8EAF136E2D82F3E90038C8AF /* takss.swift */,
 				8EAF13562D82D5F50038C8AF /* Assets.xcassets */,
 				8EAF13582D82D5F50038C8AF /* Preview Content */,
 			);
@@ -137,7 +158,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EAF13552D82D5F40038C8AF /* ContentView.swift in Sources */,
+				8EAF136B2D82EFC30038C8AF /* observable.swift in Sources */,
+				8EAF13552D82D5F40038C8AF /* AddImage.swift in Sources */,
+				8EAF13692D82EE4C0038C8AF /* SwiftUIView.swift in Sources */,
+				8EAF13612D82DE9E0038C8AF /* AddButton.swift in Sources */,
+				8EAF136F2D82F3E90038C8AF /* takss.swift in Sources */,
+				8EAF13672D82EC4B0038C8AF /* CustomViewModifier.swift in Sources */,
+				8EAF13652D82E1640038C8AF /* ListView.swift in Sources */,
+				8EAF13632D82DFF20038C8AF /* NavigationStack.swift in Sources */,
 				8EAF13532D82D5F40038C8AF /* learning_swiftuiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
